@@ -12,6 +12,16 @@ return [
     | as required, but they're a perfect start for most applications.
     |
     */
+    'multi-auth' => [
+    'admin' => [
+        'driver' => 'eloquent',
+        'model'  => App\Admin::class
+    ],
+    'user' => [
+        'driver' => 'eloquent',
+        'model'  => App\User::class
+    ]
+],
 
     'defaults' => [
         'guard' => 'web',
@@ -75,6 +85,7 @@ return [
         //     'table' => 'users',
         // ],
     ],
+
 
     /*
     |--------------------------------------------------------------------------

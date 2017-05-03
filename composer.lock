@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c299fd7c6ab9fc3b1a3577ec40855d0b",
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "hash": "2c5b9181934894b724c49c53f95c17a4",
+    "content-hash": "741a8c435856c67d7c7177f6b1c72a6c",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -235,6 +235,56 @@
                 }
             ],
             "time": "2015-04-20 18:58:01"
+        },
+        {
+            "name": "kbwebs/multiauth",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kbwebs/MultiAuth.git",
+                "reference": "be6b2780fc63b92a956a332f781e43023cfb8233"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kbwebs/MultiAuth/zipball/be6b2780fc63b92a956a332f781e43023cfb8233",
+                "reference": "be6b2780fc63b92a956a332f781e43023cfb8233",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/auth": "~5.1",
+                "illuminate/console": "~5.1",
+                "illuminate/database": "~5.1",
+                "illuminate/filesystem": "~5.1",
+                "illuminate/support": "~5.1",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kbwebs\\MultiAuth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kasper Basse",
+                    "email": "kasperbasse@gmail.com"
+                }
+            ],
+            "description": "MultiAuth for Laravel 5.1",
+            "keywords": [
+                "auth",
+                "laravel",
+                "login",
+                "multi",
+                "multiauth",
+                "signin",
+                "user"
+            ],
+            "time": "2015-09-12 08:04:15"
         },
         {
             "name": "laravel/framework",
